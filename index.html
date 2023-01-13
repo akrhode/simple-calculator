@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet"> 
   </head>
   <body>
+    <div id="resultArea">
+123
+    </div>
+
     <table>
       <tr>
         <td></td>
@@ -20,28 +27,28 @@
         <td>7</td>
         <td>8</td>
         <td>9</td>
-        <td>/</td>
+        <td class="operator">/</td>
       </tr>
 
       <tr>
         <td>4</td>
         <td>5</td>
         <td>6</td>
-        <td>*</td>
+        <td class="operator">*</td>
       </tr>
 
       <tr>
         <td>1</td>
         <td>2</td>
         <td>3</td>
-        <td>+</td>
+        <td class="operator">+</td>
       </tr>
 
       <tr>
         <td>0</td>
-        <td>=</td>
+        <td>.</td>
         <td>-</td>
-        <td></td>
+        <td id="result">=</td>
       </tr>
     </table>
   </body>
